@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+  <html lang="en">
+<script>
+if (window.location.hash) {
+    let hash = window.location.hash.substring(1);
+    window.location.hash = '';
+    window.location.href = hash;
+}
+</script>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    </script>
+    <style src="style.css"></style>
+    <title>Customail</title>
+  </head>
+  
+  <body>
+  
+    <div>
+      <div class="top-bar">
+        <img id="logo" src="customail.png" alt="Customail">
+      </div>
+      <div class="email">
+        <div class="a recipients">
+          <input type="text" placeholder="Enter email recipients...">
+
+        </div>
+        <div class="a cc">
+          <input type="text" placeholder="Enter emails to cc...(comma delimited)">
+
+        </div>
+        <div class="a subject">
+          <input type="text" placeholder="Subject...">
+
+        </div>
+        <div class="a email-body">
+          <textarea type="text" placeholder="Email body..."></textarea>
+
+        </div>
+        <div class="a alt-text">
+          <input type="text" placeholder="Alternate text, default: Click this link...">
+
+        </div>
+        <div class="a button">
+            <button>Submit</button>
+        </div>
+        <div class="a output"></div>
+      </div>
+
+      <!-- <a id="default" href="mailto:tashe@leg.state.vt.us,mjohnson@leg.state.vt.us?bcc=jwhite@leg.state.vt.us,scopelandhanzas@leg.state.vt.us,mgrad@leg.state.vt.us,rsears@leg.state.vt.us&amp;subject=Transparency%20for%20Police%20Disciplinary%20Records%20&amp;body=Hello,%0d%0dI%20am%20a%20resident%20of%20Vermont%20living%20in%20[city/town%20name].%0d%0dI%20urge%20you%20to%20pass%20legislation%20that%20allows%20police%20disciplinary%20records%20to%20be%20publicly%20available%20at%20the%20local%20and%20state%20level.%20When%20an%20officer%20harms%20our%20community,%20we%20deserve%20to%20know.%20This%20is%20common%20sense%20transparency%20that%20will%20help%20the%20public%20know%20if%20there%20is%20a%20pattern%20of%20abuse.%0d%0dYou%20cannot%20allow%20abusive%20individuals%20to%20hide%20behind%20an%20antiquated%20policy%20of%20secrecy.%0d%0dLocal%20police%20departments%20may%20withhold%20disciplinary%20records%20under%201%20V.S.A.%20§%20317(c)(7).%20Internal%20investigations%20of%20Vermont%20state%20troopers%20are%20conducted%20by%20the%20State%20Police%20Advisory%20Commission%20and%20confidential%20under%2020%20V.S.A.%20§%201923.%20These%20state%20laws%20must%20be%20amended%20to%20allow%20the%20public%20access%20to%20these%20important%20records.%0d%0dThe%20actions%20you%20take%20now%20will%20be%20noted%20by%20all%20of%20your%20constituents.%20We%20cannot%20settle%20for%20band-aids%20during%20this%20moment%20in%20our%20country’s%20history.%20%0d%0dSincerely%20%0d%0d[Your%20Name]%0d" rel="EMAIL" style="font-family:Times;font-size:medium;font-variant-ligatures:normal" target="_blank">Click this link</a> -->
+    
+    </div>
+
+ 
+
+  </body>
+  <script src="app.js" type="text/javascript"></script>
+  </html>

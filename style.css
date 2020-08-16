@@ -1,0 +1,43 @@
+*, html, body {
+    padding: 0;
+    margin: 0; 
+  }
+  .top-bar {
+    height: 115px;
+    background-color: lightblue;
+    padding: 15px;
+    text-align: center;
+  }
+  #logo {
+    height: 115px;
+  }
+  .a {
+    /* border: solid red 1px; */
+    /* height: 30vh; */
+    text-align: center;
+    padding: 10px;
+  }
+  .recipients {
+
+  }
+  .a input, .a textarea {
+    width: 45vw;
+    min-width: 300px;
+    text-align: top;
+    font: arial;
+  }
+  .cc {
+
+  }
+  .subject {
+
+  }
+  .email-body {
+
+  }
+  .email-body textarea {
+    height: 300px;
+  }
+  .alt-text {
+
+  }
